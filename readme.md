@@ -1,4 +1,4 @@
-To run application
+To run this application
 
 ```sh
 uvicorn main:app --reload
