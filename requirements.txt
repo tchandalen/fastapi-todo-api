@@ -1,0 +1,15 @@
+# for fastapi
+fastapi
+uvicorn
+python-dotenv
+
+# for mongo
+pymongo
+
+# for validation
+pydantic[email]
+
+# for security
+argon2-cffi
+pyjwt
+cryptography
