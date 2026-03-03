@@ -66,4 +66,4 @@ async def update():
     dependencies=[Depends(is_valid_token)]
 )
 async def destroy():
-    return 'Delete to-do item successfully!!!'
+    return 'Delete to-do item successfully!'
