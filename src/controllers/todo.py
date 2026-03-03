@@ -11,7 +11,7 @@ todo_router = APIRouter(tags=['Todo'])
 
 @todo_router.post(
     '/api/todo',
-    summary='to create new todo'
+    summary='to create new todo successfully',
 )
 async def store(
     data: dict = Depends(is_valid_token),
