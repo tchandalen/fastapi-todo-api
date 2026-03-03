@@ -56,7 +56,7 @@ async def get_all(
     dependencies=[Depends(is_valid_token)]
 )
 async def update():
-    return 'Update todo'
+    return 'Updated todo-list!'
 
 
 
