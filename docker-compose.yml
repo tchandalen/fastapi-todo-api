@@ -1,0 +1,16 @@
+services:
+  todo-db:
+    image: mongo:8.3.4
+    container_name: todo-db
+    ports:
+      - 27017:27017
+    volumes:
+      - vol-todo-db:/data/db
+      - vol-todo-config:/data/config
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=todo
+      - MONGO_INITDB_ROOT_PASSWORD=todo
+
+volumes:
+  vol-todo-db:
+  vol-todo-config: 
