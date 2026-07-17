@@ -9,5 +9,5 @@ uvicorn main:app --reload
 To build image and push to docker repo
 
 ```sh
-docker build -t teangchandalen/tcdl:todo-api --push .
+docker build --platform linux/amd64,linux/arm64 -t teangchandalen/tcdl:todo-api --push .
 ```
